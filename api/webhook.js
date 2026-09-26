@@ -148,6 +148,8 @@ export default async function handler(req, res) {
       // Fallback to strict production origin if unrecognized or missing
       res.setHeader("Access-Control-Allow-Origin", allowedOrigin);
     }
+    // Prevent Vercel's edge cache from serving one origin's cached
+    res.setHeader("Vary", "Origin");
 
     // 2. Set Edge Caching headers
     res.setHeader(

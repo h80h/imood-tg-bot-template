@@ -39,7 +39,7 @@ To log a mood, just message the bot in this format:
 ```
 <mood> <mood details> <#face id>
 ```
-(separate two parameter with a space)
+(separate each two parameter with a space)
 
 Example:
 
