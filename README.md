@@ -1,4 +1,4 @@
-# imood-tg-bot
+# imood-tg-bot-template
 
 (I asked claude to sum up for me. I've already had it proofread and did some edits, so there shouldn't be any problems)
 
@@ -39,6 +39,7 @@ To log a mood, just message the bot in this format:
 ```
 <mood> <mood details> <#face id>
 ```
+(separate two parameter with a space)
 
 Example:
 
