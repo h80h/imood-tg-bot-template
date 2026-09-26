@@ -1,0 +1,12 @@
+{
+  "name": "imood-tg-bot",
+  "version": "1.0.0",
+  "description": "A serverless Telegram bot to update imood status",
+  "main": "api/webhook.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "h80h",
+  "license": "MIT"
+}
